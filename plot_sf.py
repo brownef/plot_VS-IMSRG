@@ -61,6 +61,7 @@ elif inter == 3:
     savename = "c2s_n3lo.pdf"
 else:
     print("no good interaction option")
+    print("Useage: 1 for EM1.8/2.0, 2 for DNNLOgo, 3 for N3LO")
     exit(0)
 
 # convert En bra to gs
