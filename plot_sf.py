@@ -74,7 +74,6 @@ leq1 = indat.loc[(indat['j2']==1)&(indat['En bra']>-0.1)&(indat['En bra']<5)&(in
 leq3np = leq3[['En bra','CS^2']].to_numpy()
 leq1np = leq1[['En bra','CS^2']].to_numpy()
 
-bottom_arr=zeropad(leq3np,leq1np)
 leq1np = zeropad(leq3np,leq1np)
 
 fix, ax = plt.subplots()
